@@ -1,9 +1,8 @@
 use std::path::{PathBuf, Path};
 use std::fs::PathExt;
-use std::time::Duration;
 use std::error::Error;
 use std::fmt;
-use time::{self, Timespec};
+use time::{self, Duration, Timespec};
 use filetime::FileTime;
 
 use iron::prelude::*;
